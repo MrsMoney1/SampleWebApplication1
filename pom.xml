@@ -13,7 +13,7 @@
         <spring.version>5.1.2.RELEASE</spring.version>
         <junit.version>4.11</junit.version>
         <log4j.version>1.2.17</log4j.version>
-        <sonar.host.url>http:54.175.182.76:9000/</sonar.host.url>
+        <sonar.host.url>http:172.31.17.222:9000/</sonar.host.url>
         <sonar.login>admin</sonar.login>
         <sonar.password>admin</sonar.password>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,13 +25,13 @@
             <repository>
               <id>nexus</id>
               <name>Joeysparks Releases Nexus Repository</name>
-	      <url>http://52.207.150.149:8081/repository/swa6-releases/</url>
+	      <url>http://54.167.112.115:8181/repository/swebreleases/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
               <name>Joeysparkx Snapshot Nexus Repository </name>
-	      <url>http://52.207.150.149:8081/repository/swa6-snapshot/</url>
+	      <url>http://54.167.112.115:8181/repository/swebsnapshots/</url>
             </snapshotRepository>
 
   </distributionManagement>
